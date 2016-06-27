@@ -366,6 +366,7 @@ PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.0 \
     android.hardware.secure_element@1.0.vendor \
     rild \
+    libcnefeatureconfig \
     librmnetctl \
     libprotobuf-cpp-full \
     android.hardware.radio.config@1.2 \
