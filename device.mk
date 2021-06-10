@@ -405,6 +405,10 @@ PRODUCT_PACKAGES += \
     libcamera_sdm660_shim \
     libshim_dpmframework
 
+# Thermal
+PRODUCT_PACKAGES += \
+    android.hardware.thermal@2.0-service.qti
+
 # Tetheroffload
 PRODUCT_PACKAGES += \
     ipacm \
