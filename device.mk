@@ -22,7 +22,10 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay
 
 PRODUCT_PACKAGES += \
-    TulipNoCutoutOverlay
+    TulipNoCutoutOverlay  \
+    libqcomfmjni \
+    PocketJudge 
+
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \

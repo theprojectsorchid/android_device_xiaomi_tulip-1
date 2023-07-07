@@ -10,7 +10,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common ArrowOS stuff
 $(call inherit-product, vendor/arrow/config/common.mk)
-DEVICE_MAINTAINER := IceBreaker2451
+
 
 # Inherit from tulip device
 $(call inherit-product, device/xiaomi/tulip/device.mk)

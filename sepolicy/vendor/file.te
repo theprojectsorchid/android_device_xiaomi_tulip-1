@@ -6,3 +6,6 @@ type thermal_data_file, file_type, data_file_type;
 
 # Kcal
 type sysfs_kcal, fs_type, sysfs_type;
+
+# Pocket judge
+type pocket_judge_sysfs, fs_type, sysfs_type;
